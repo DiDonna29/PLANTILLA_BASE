@@ -1,0 +1,27 @@
+# =========================================================================
+# GITIGNORE — Configuración de Exclusiones en la Raíz del Proyecto DEM
+# =========================================================================
+
+# Dependencias locales y compilaciones
+.venv/
+node_modules/
+dist/
+/out-tsc
+
+# Carpeta de metadatos y bitácora del Asistente de IA (Antigravity)
+brain/
+
+# Configuraciones locales y variables de entorno secretas
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# Logs de ejecución
+*.log
+backend/logs/
+
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
